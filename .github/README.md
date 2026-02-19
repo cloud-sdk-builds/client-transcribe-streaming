@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-transcribe-streaming`](https://www.npmjs.com/package/@aws-sdk/client-transcribe-streaming/v/3.879.0).
+[`@aws-sdk/client-transcribe-streaming`](https://www.npmjs.com/package/@aws-sdk/client-transcribe-streaming/v/3.881.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transcribe-streaming@3.879.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transcribe-streaming@3.881.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-UGBjqy1X6b25Jrp5ltl2cco7rQbaJdI9s7Cv2GFLDyN4WY1JtchehdTmz6rWkJZm
+sha384-vdIuWRPFKDZPaHO4Ul0UYKutTZTCmtRKAsCuKc89mA11HNYgDdgG8EqNfobGqwPC
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-transcribe-streaming": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transcribe-streaming@3.879.0/index.min.mjs"
+            "@aws-sdk/client-transcribe-streaming": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transcribe-streaming@3.881.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transcribe-streaming@3.879.0/index.min.mjs": "sha384-UGBjqy1X6b25Jrp5ltl2cco7rQbaJdI9s7Cv2GFLDyN4WY1JtchehdTmz6rWkJZm"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transcribe-streaming@3.881.0/index.min.mjs": "sha384-vdIuWRPFKDZPaHO4Ul0UYKutTZTCmtRKAsCuKc89mA11HNYgDdgG8EqNfobGqwPC"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-transcribe-streaming": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transcribe-streaming@3.879.0/index.min.mjs"
+                        "@aws-sdk/client-transcribe-streaming": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transcribe-streaming@3.881.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transcribe-streaming@3.879.0/index.min.mjs": "sha384-UGBjqy1X6b25Jrp5ltl2cco7rQbaJdI9s7Cv2GFLDyN4WY1JtchehdTmz6rWkJZm"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transcribe-streaming@3.881.0/index.min.mjs": "sha384-vdIuWRPFKDZPaHO4Ul0UYKutTZTCmtRKAsCuKc89mA11HNYgDdgG8EqNfobGqwPC"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.879.0`)
+* Always pin to a specific version (`@3.881.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-transcribe-streaming/blob/refs/tags/3.879.0/LICENSE
+https://github.com/cloud-sdk-builds/client-transcribe-streaming/blob/refs/tags/3.881.0/LICENSE
 ```
 
 ---
